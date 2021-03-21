@@ -1,0 +1,222 @@
+/*GENERAL*/
+
+#main-fonts{
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    background-image: url("../assets/lineup/background.png");
+    background-position: top;
+    background-repeat:repeat;
+    background-size:cover;
+}
+
+/* Title */
+.lineuptitle{
+    margin-top: 4rem;
+    transition: 0.5s;
+}
+.lineuptitle:hover{
+    margin-top: 2.5rem;
+    filter: drop-shadow(0 0 0.75rem rgb(29, 29, 29));
+    transition: 0.5s;
+}
+
+/* Padding Top Bottom Content */
+.paddingtb-4{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Desktop HIDE */
+.desktop-hide{
+    display: none;
+}
+
+/* Tab Speakers GS */
+.tab-landing{
+    background-color: #f0e4d6;
+    border: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: 0.3s;
+}
+.tab-landing:hover{
+    background-color: #048a31;
+    border: 20px;
+    padding: 15px;
+    color: whitesmoke;
+    border-radius: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: 0.3s;
+}
+.tab-landing.active{
+    background-color: #f0e4d6;
+    padding: 15px;
+    transition: 0.3s;
+    color: #117736;
+}
+.tab-content{
+    background-color: #f0e4d6;
+    padding: 30px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    transition: 0.3s;
+    font-size: 1.3rem;   
+}
+.tab-content:hover{
+    background-color: #f0e4d6;
+    padding: 30px;
+    filter: drop-shadow(0 0 0.75rem rgb(29, 29, 29));
+    padding-bottom: 30px;
+    border-radius: 12px;
+    transition: 0.3s;
+    font-size: 1.3rem;   
+}
+.tab-content-sub{
+    background-color: #f0e4d6;
+    padding: 30px;
+    padding-bottom: 30px;
+    border-radius: 12px;
+    transition: 0.3s;
+    font-size: 1.3rem;   
+}
+
+/* GS Section */
+.aboutgstext{
+    font-size: 1rem;
+    text-align: justify;
+}
+.gsfoto{
+    width: 250px;
+    height: auto;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+.gsfoto:hover{
+    width: 250px;
+    height: auto;
+    filter: drop-shadow(8px 9px 0.25rem rgb(111, 111, 111));
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.gsname{
+    padding-top: 10px;
+    margin-left: -67px;
+    transition: 0.3s;
+}
+.gsname:hover{
+    padding-top: 5px;
+    margin-left: -67px;
+    transition: 0.3s;
+}
+
+.sosmed-gs{
+    list-style-type: none;
+    margin-top: 2px;
+}
+
+.sosmed-list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.oags{
+    width: 50px;
+    height: auto;
+    transition: 0.3s;
+}
+.oags:hover{
+    width: 55px;
+    margin-left: -10px;
+    height: auto;
+    filter:invert(1);
+    transition: 0.3s;
+}
+
+/* Speaker Section */
+.speakersfoto{
+    width: 200px;
+    height: auto;
+    padding-bottom: 1rem;
+    transition: 0.3s;
+}
+.speakersfoto:hover {
+	width: 200px;
+	height: auto;
+	filter: drop-shadow(8px 9px 0.25rem rgb(111, 111, 111));
+	padding-bottom: 1rem;
+	transition: 0.3s;
+}
+
+/*MOBILE STYLES*/
+@media only screen and (max-width: 991px){
+    .dropbtn-nav{
+        display: inline-block;
+    }
+    .desktop-hide{
+        display: block;
+    }
+    .desktop-hide a{
+        color: #1a2634;
+    }
+    .tab-content{
+        background-color: #f0e4d6;
+        padding: 15px;
+        padding-bottom: 30px;
+        border-radius: 8px;
+        transition: 0.3s;
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .mobile-hide{
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px){
+    .lineuptitle{
+        margin-top: 0rem;
+        transition: 0.5s;
+    }
+    .lineuptitle:hover{
+        margin-top: 0rem;
+        filter: drop-shadow(0 0 0.75rem rgb(29, 29, 29));
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    .gsfoto{
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        transition: 0.3s;
+    }
+    .gsfoto:hover{
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        transition: 0.3s;
+        filter: drop-shadow(8px 9px 0.25rem rgb(111, 111, 111));
+    }
+    .oags{
+        width: 35px;
+        height: auto;
+        margin-left: -5px;
+        transition: 0.3s;
+    }
+    .oags:hover{
+        width: 35px;
+        height: auto;
+        filter:invert(1);
+        transition: 0.3s;
+    }
+    .gsname{
+        padding-top: 10px;
+        margin-left: 0px;
+        transition: 0.3s;
+        font-size: 20px;
+    }
+}

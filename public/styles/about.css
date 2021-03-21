@@ -1,0 +1,141 @@
+/*GENERAL*/
+
+#main-fonts{
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    background-image: url("../assets/about/background.png");
+    background-position: top;
+    background-size:cover;
+}
+
+.tagline-fonts{
+    letter-spacing: 1px;
+    display: ruby-base;
+    margin-right: 25px;
+}
+.paddingtb-4{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.marginleft10{
+    margin-left: 10px;
+}
+
+.desktop-hide{
+    display: none;
+}
+
+.aboutbox {
+	background-image: url("../assets/about/About Us box.png");
+	background-position: left;
+	background-size: cover;
+	padding-right: 50px;
+	padding-left: 40px;
+	padding-top: 61px;
+	padding-bottom: 58px;
+	margin-top: -87px;
+    transition: 0.3s;
+}
+.aboutbox:hover {
+	background-image: url("../assets/about/About Us box.png");
+	background-position: left;
+	background-size: cover;
+	padding-right: 50px;
+	padding-left: 40px;
+	padding-top: 61px;
+	padding-bottom: 58px;
+	margin-top: -77px;
+    transition: 0.3s;
+}
+
+.margin-left-7{
+    margin-left: 7rem;
+}
+
+.nav-link{
+    color: black;
+}
+
+.box-text-about{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.abouthead {
+	width: auto;
+	height: auto;
+	margin-top: -21px;
+	margin-left: 30px;
+}
+
+/*MOBILE STYLES*/
+@media only screen and (max-width: 1199px){
+    .box-text-about{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width: 991px){
+    .marginleft10{
+        margin-left: 0px;
+    }
+    .tagline-fonts{
+        display: none;
+    }
+    .dropbtn-nav{
+        display: inline-block;
+    }
+    .desktop-hide{
+        display: block;
+    }
+    .logo-landing-nav{
+        width: 90px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .logo-tb-nav{
+        width: 90px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .logo-landing-nav:hover{
+        width: 100px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .mobile-hide{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .aboutbox {
+        background-image: url("../assets/about/About Us box.png");
+        background-position: left;
+        background-size: cover;
+        padding-right: 50px;
+        padding-top: 61px;
+        padding-bottom: 58px;
+        margin-top: -69px;
+        padding-left: 60px;
+    }
+    
+}
+@media only screen and (max-width: 495px){
+    .aboutbox {
+        background-image: url("../assets/about/About Us box.png");
+        background-position: left;
+        background-size: cover;
+        padding-right: 50px;
+        padding-top: 61px;
+        padding-bottom: 58px;
+        margin-top: -60px;
+        padding-left: 60px;
+    }
+}

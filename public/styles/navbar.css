@@ -1,0 +1,71 @@
+/*NAVBAR AREA*/
+.navbar{
+    padding-top: .2rem;
+    padding-bottom: .1rem;
+    background-color: #f0e4d6;
+    transition: 0.3s;
+}
+.navbar:hover{
+    padding-top: .2rem;
+    padding-bottom: .1rem;
+    filter: drop-shadow(0 0 0.75rem rgb(29, 29, 29));
+    background-color: #f0e4d6;
+    transition: 0.3s;
+}
+
+.tagline-fonts{
+    letter-spacing: 1px;
+    white-space: nowrap;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 2px;
+}
+
+.navOA{
+    width: auto;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 10px;
+}
+
+.nav-togIcon {
+	padding: .25rem 0.2rem;
+	line-height: 1;
+	background-color: transparent;
+	border: 1px solid transparent;
+	transition: box-shadow .15s ease-in-out;
+    margin-top: -7px;
+    display: none;
+}
+.nav-item{
+    color:#1a2634;
+}
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: #006442;
+}
+
+.marginleft10{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 991px){
+    .marginleft10{
+        margin-left: 0px;
+    }
+    .nav-togIcon{
+        display: block;
+    }
+    .tagline-fonts{
+        display: none;
+    }
+}
+@media only screen and (max-width: 767px){
+    .stick-sosmed{
+        display: none;
+    }
+}
