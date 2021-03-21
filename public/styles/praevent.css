@@ -1,0 +1,424 @@
+/*GENERAL*/
+
+#main-fonts{
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    background-image: url("../assets/pramainevent/background-main.png");
+    background-color: #fbd963;
+    background-position: top;
+    background-size:cover;
+}
+
+.tagline-fonts{
+    letter-spacing: 1px;
+    display: ruby-base;
+    margin-right: 25px;
+}
+
+.marginleft10{
+    margin-left: 10px;
+}
+
+.desktop-hide{
+    display: none;
+}
+
+/* content praevent */
+#praeventsection{
+    padding-bottom: 100px;
+}
+
+.praeventhead {
+	width: 500px;
+	height: auto;
+	margin-top: -50px;
+	margin-left: -95px;
+    transition: 0.3s;
+}
+.praeventhead:hover {
+	transform: rotate(-10deg);
+	margin-top: -50px;
+	margin-left: -95px;
+    transition: 0.3s;
+}
+
+/* forchamp */
+.forchamphead{
+    position:relative;
+    z-index: -1;
+}
+
+.forchambox{
+    background-image: url("../assets/pramainevent/forchampbox.png");
+    background-position: center;
+    background-size:cover;
+    padding: 25px;
+    padding-left: 40px;
+    margin-top: -155px;
+    transition: 0.3s;
+}
+.forchambox:hover{
+    background-image: url("../assets/pramainevent/forchampbox.png");
+    background-position: center;
+    background-size:cover;
+    padding: 25px;
+    padding-left: 40px;
+    margin-top: -140px;
+    transition: 0.3s;
+}
+/* roadshow */
+.roadshowbox {
+	background-image: url("../assets/pramainevent/roadshowbox.png");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+	padding-right: 50px;
+	padding-left: 40px;
+    padding-bottom: 40px;
+	margin-top: -94px;
+    transition: 0.3s;
+}
+.roadshowbox:hover {
+	background-image: url("../assets/pramainevent/roadshowbox.png");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+	padding-right: 50px;
+	padding-left: 40px;
+    padding-bottom: 40px;
+	margin-top: -84px;
+    transition: 0.3s;
+}
+.roadshowpad{
+    margin-top: -180px;
+}
+.roadshowhead{
+    width: 600px;
+    height: auto;
+    position:relative;
+    z-index: -1;
+}
+
+/* miniexpo */
+.miniexpopad{
+    margin-top: -54px;
+}
+.miniexpohead{
+    width: 600px;
+    height: auto;
+    position:relative;
+    z-index: -1;
+}
+.miniexpobox {
+	background-image: url("../assets/pramainevent/miniexpobox.png");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+	padding-right: 50px;
+	padding-left: 40px;
+    padding-bottom: 45px;
+	margin-top: -140px;
+    transition: 0.3s;
+}
+.miniexpobox:hover {
+	background-image: url("../assets/pramainevent/miniexpobox.png");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+	padding-right: 50px;
+	padding-left: 40px;
+    padding-bottom: 45px;
+	margin-top: -130px;
+    transition: 0.3s;
+}
+
+/* seminar */
+.seminarpad{
+    margin-top: -54px;
+}
+.seminarhead{
+    width: 600px;
+    height: auto;
+    position:relative;
+    z-index: -1;
+}
+.seminarbox {
+	background-image: url("../assets/pramainevent/miniexpobox.png");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+	padding-right: 50px;
+	padding-left: 40px;
+    padding-bottom: 48px;
+	margin-top: -140px;
+    transition: 0.3s;
+}
+.seminarbox:hover {
+	background-image: url("../assets/pramainevent/miniexpobox.png");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+	padding-right: 50px;
+	padding-left: 40px;
+    padding-bottom: 48px;
+	margin-top: -130px;
+    transition: 0.3s;
+}
+
+/* Tryout */
+.tryoutpad{
+    margin-top: -54px;
+}
+.tryouthead{
+    width: 900px;
+    height: auto;
+    position:relative;
+    z-index: -1;
+}
+.tryoutbox {
+	background-image: url("../assets/pramainevent/miniexpobox.png");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+	padding-right: 50px;
+	padding-left: 40px;
+    padding-bottom: 30px;
+	margin-top: -130px;
+    transition: 0.3s;
+}
+.tryoutbox:hover {
+	background-image: url("../assets/pramainevent/miniexpobox.png");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+	padding-right: 50px;
+	padding-left: 40px;
+    padding-bottom: 30px;
+	margin-top: -120px;
+    transition: 0.3s;
+}
+
+.nav-link{
+    color: black;
+}
+
+.box-text-praevent{
+    font-size: 25px;
+}
+
+.maineventhead {
+	width: 500px;
+	height: auto;
+    transition: 0.3s;
+}
+.maineventhead:hover {
+    transform: rotate(10deg);
+	width: 500px;
+	height: auto;
+    transition: 0.3s;
+}
+
+
+/*MOBILE STYLES*/
+@media only screen and (max-width: 1199px){
+    .rounded-navmain{
+        background-color: #117736;
+        border-radius: 34px;
+        width: 1100px;
+        height: 80px;
+        margin: auto;
+        margin-top: -60px;
+        display: none;
+    }
+    .forchambox{
+        background-image: url("../assets/pramainevent/forchampbox.png");
+        background-position: center;
+        background-size:cover;
+        padding: 25px;
+        padding-left: 40px;
+        margin-top: -135px;
+    }
+    .box-text-praevent{
+        font-size: 20px;
+    }
+
+}
+@media only screen and (max-width: 991px){
+    .marginleft10{
+        margin-left: 0px;
+    }
+    .tagline-fonts{
+        display: none;
+    }
+    .dropbtn-nav{
+        display: inline-block;
+    }
+    .desktop-hide{
+        display: block;
+    }
+    .logo-landing-nav{
+        width: 90px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .logo-tb-nav{
+        width: 90px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .logo-landing-nav:hover{
+        width: 100px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .mobile-hide{
+        display: none;
+    }
+    .roadshowpad {
+        margin-top: -140px;
+    }
+    .forchambox {
+        background-image: url("../assets/pramainevent/forchampbox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-left: 40px;
+        margin-top: -115px;
+    }
+    .tryoutbox {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 30px;
+        margin-top: -105px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .forchambox {
+        background-image: url("../assets/pramainevent/forchampbox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-left: 40px;
+        margin-top: -78px;
+    }
+    .roadshowhead {
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: -1;
+    }
+    .roadshowpad {
+        margin-top: -95px;
+    }
+    .miniexpohead {
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: -1;
+    }
+    .seminarhead {
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: -1;
+    }
+    .seminarbox {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 73px;
+        margin-top: -115px;
+    }
+    .miniexpobox {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 45px;
+        margin-top: -124px;
+    }
+    .tryouthead {
+        width: auto;
+        height: auto;
+        position: relative;
+        z-index: -1;
+    }
+    .tryoutbox {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 55px;
+        margin-top: -79px;
+    }
+    .box-text-praevent {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 495px){
+    .forchambox {
+        background-image: url("../assets/pramainevent/forchampbox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-left: 40px;
+        margin-top: -64px;
+    }
+    .roadshowbox {
+        background-image: url("../assets/pramainevent/roadshowbox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 57px;
+        margin-top: -94px;
+    }
+    .miniexpobox {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 75px;
+        margin-top: -94px;
+    }
+    .seminarbox {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 73px;
+        margin-top: -90px;
+    }
+    .tryoutbox {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 55px;
+        margin-top: -61px;
+    }
+}

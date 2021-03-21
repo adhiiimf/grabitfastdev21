@@ -1,0 +1,20 @@
+#medpart-sponsor{
+    background-color: #f0e4d6;
+}
+
+.txt-medspor{
+    font-size: 30px;
+    color: black;
+}
+
+.medspor-logo{
+    height: 100px;
+    width: auto;
+    transition: 0.5s;
+}
+.medspor-logo:hover{
+    height: 110px;
+    width: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(189, 207, 100));
+    transition: 0.5s;
+}

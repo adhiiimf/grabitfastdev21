@@ -1,0 +1,48 @@
+.logo-nav{
+    width: 90px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.logo-nav:hover{
+    transform:rotate(20deg);
+    transition: 0.5s;
+    filter: drop-shadow(0 0 0.75rem rgb(196, 101, 114));
+}
+
+.nav-exland-text{
+    color: whitesmoke;
+    font-size: 17px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+
+.nav-exland-text:hover{
+    color: rgb(231, 149, 149);
+    font-size: 17px;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 0.75rem rgb(196, 101, 114));
+}
+
+.paddingt-7{
+    padding-top: 7rem;
+}
+
+.front-1 {
+	z-index: 1;
+    background-image: url("../assets/pramainevent/KAPSUL.png");
+	background-color: green;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: unset;
+	padding-top: 18px;
+	width: 129px;
+	border-radius: 110px;
+    height: 780px;
+}
+
+@media only screen and (max-width: 991px){
+    .mobile-hide{
+        display: none;
+    }
+}

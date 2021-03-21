@@ -14,5 +14,45 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing');
+});
+
+Route::get('/aboutus', function () {
+    return view('about');
+});
+
+Route::get('/lineup', function () {
+    return view('lineup');
+});
+
+Route::get('/map', function () {
+    return view('map');
+});
+
+Route::get('/mascot', function () {
+    return view('mascot');
+});
+
+Route::get('/theme', function () {
+    return view('theme');
+});
+
+Route::get('/pramainevent', function () {
+    return view('pramainevent');
+});
+
+Route::get('/deskripsi', function () {
+    return view('desc');
+});
+
+Route::get('/gif18', function () {
+    return view('gif18');
+});
+
+Route::get('/gif19', function () {
+    return view('gif19');
+});
+
+Route::get('/gif20', function () {
+    return view('gif20');
 });

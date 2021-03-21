@@ -1,0 +1,54 @@
+/*GENERAL*/
+
+#main-fonts{
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    background-image: url("/assets/tb/backgroundgif19.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+#background{
+    padding-bottom: 1000px;
+}
+
+.gif19{
+    width: 400px;
+    height: auto;
+}
+
+.paddingtb-4{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.desktop-hide{
+    display: none;
+}
+
+/*MOBILE STYLES*/
+
+@media only screen and (max-width: 991px){
+    .dropbtn-nav{
+        display: inline-block;
+    }
+    .desktop-hide{
+        display: block;
+    }
+    .desktop-hide a{
+        color: #1a2634;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .mobile-hide{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .paddingtb-4 {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+}

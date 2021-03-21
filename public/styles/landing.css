@@ -1,0 +1,316 @@
+/*GENERAL*/
+
+#main-fonts{
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    background-image: url("../assets/Background-landing.png");
+    background-position: center;
+    background-repeat:repeat;
+    background-size:cover;
+}
+
+#videoLand {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+.backvideo{
+    background-image: url("../assets/landing-gif.gif");
+    background-position: center;
+    background-repeat:repeat;
+    background-size:cover;
+}
+
+.strip-box{
+    background-color: #1A2634;
+    padding: 5px;
+}
+
+.marginleft10{
+    margin-left: 10px;
+}
+
+.desktop-hide{
+    display: none;
+}
+
+.rounded-navmain {
+	background-color: #117736;
+    background-image: url("../assets/back-capsul-horizontal.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: unset;
+	border-radius: 50px;
+	width: 1100px;
+	height: 90px;
+	margin: auto;
+	margin-top: -80px;
+}
+
+.logo-landing-nav{
+    width: 130px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+.logo-landing-nav:hover{
+    transform:rotate(20deg);
+    margin-right: 30px;
+    margin-left: 30px;
+    transition: 0.3s;
+    filter: drop-shadow(0 0 0.75rem rgb(196, 101, 114));
+}
+
+.logo-tb-nav{
+    width: 130px;
+    height: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    transition: 0.5s;
+}
+.logo-tb-nav:hover{
+   transform: scale(1.1);
+    margin-right: 30px;
+    margin-left: 30px;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 0.75rem rgb(116, 247, 186));
+}
+
+.nav-land-text{
+    color: whitesmoke;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.nav-land-text:hover{
+    color: rgb(231, 149, 149);
+    font-size: 20px;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 0.75rem rgb(196, 101, 114));
+}
+
+.tab-landing{
+    background-color: #f0e4d6;
+    border: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    color: rgb(41, 41, 41);
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: 0.3s;
+}
+.tab-landing:hover{
+    background-color: #117736;
+    border: 20px;
+    padding: 15px;
+    color: whitesmoke;
+    border-radius: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    transition: 0.3s;
+}
+
+.readmore{
+    color: rgb(223, 35, 35);
+}
+.readmore:hover{
+    color: rgb(236, 234, 234);
+}
+
+.tab-landing.active{
+    background-color: #f0e4d6;
+    padding: 15px;
+    transition: 0.3s;
+    color: #117736;
+}
+
+#more{
+    display: none;
+}
+
+.tab-content{
+    background-color: #f0e4d6;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 1.3rem;
+    
+}
+
+.tb-text-img{
+    width: 600px;
+    height: auto;
+    transition: 0.5s;
+}
+.tb-text-img:hover{
+    width: 600px;
+    height: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(116, 247, 186));
+    transition: 0.5s;
+}
+
+.maskotbot{
+    width: auto;
+    height: auto;
+    position: relative;
+    transition: 0.5s;
+}
+.maskotbot:hover{
+    width: auto;
+    height: auto;
+    filter: drop-shadow(0 0 0.75rem rgb(41, 41, 41));
+    transition: 0.5s;
+}
+
+.paddingtop-6r{
+    padding-top: 6rem;
+}
+.paddingbot-9r{
+    padding-bottom: 9rem;
+}
+
+#footer{
+    padding: 15px;
+    background-color: #d4c7b8;
+}
+
+.nav-tb-text{
+    color: whitesmoke;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.nav-tb-text:hover{
+    color: rgb(255, 236, 236);
+    font-size: 20px;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 0.75rem rgb(116, 247, 186));
+}
+
+#back-div-land2{
+    background-image: url("../assets/back-div-land-2.png");
+    background-position: center;
+    background-repeat:repeat;
+    position: relative;
+    z-index: 0;
+    background-size:cover;
+}
+
+/*MOBILE STYLES*/
+@media only screen and (max-width: 1199px){
+    .rounded-navmain{
+        background-color: #117736;
+        border-radius: 34px;
+        width: 1100px;
+        height: 80px;
+        margin: auto;
+        margin-top: -60px;
+        display: none;
+    }
+}
+@media only screen and (max-width: 991px){
+    .marginleft10{
+        margin-left: 0px;
+    }
+    .dropbtn-nav{
+        display: inline-block;
+    }
+    .desktop-hide{
+        display: block;
+    }
+    .desktop-hide a{
+        color: #1a2634;
+    }
+    .spacenav-1{
+        display: none;
+    }
+    .spacenav-2{
+        display: none;
+    }
+    .paddingbotlog-land{
+        padding-bottom: 3rem;
+    }
+    .logo-landing-nav{
+        width: 90px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .logo-tb-nav{
+        width: 90px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .logo-landing-nav:hover{
+        width: 100px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .logo-tb-nav:hover{
+        width: 100px;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .tab-landing{
+        background-color: #f0e4d6;
+        border: 20px;
+        padding: 12px;
+        border-radius: 8px;
+        margin-left: 2px;
+        margin-right: 2px;
+        transition: 0.3s;
+        font-size: 12px;
+    }
+    .tab-landing.active{
+        background-color: #f0e4d6;
+        padding: 15px;
+        transition: 0.3s;
+        color: #117736;
+        font-size: 12px;
+    }
+    .tab-content{
+        background-color: #f0e4d6;
+        padding: 15px;
+        padding-bottom: 30px;
+        border-radius: 8px;
+        transition: 0.3s;
+        font-size: 1rem;
+    }
+    .paddingtop-6r{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .padding-tab{
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .paddingbot-9r{
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .mobile-hide{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:540px){
+    .box-back{
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+}
