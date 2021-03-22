@@ -1,0 +1,113 @@
+/*GENERAL*/
+
+#main-fonts{
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    background-image: url("/assets/map/background.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+#background{
+    padding-bottom: 5rem;
+}
+.lineuptitle{
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+}
+.lineuptitle:hover{
+    position: relative;
+    margin-top: -1rem;
+    filter: drop-shadow(0 0 0.75rem rgb(29, 29, 29));
+    transition: 0.5s;
+    z-index: 2;
+}
+.map{
+    position: relative;
+    z-index: 1;
+    width: 800px;
+    height: auto;
+    margin-top: -120px;
+    transition: 0.5s;
+}
+.map:hover{
+    position: relative;
+    z-index: 1;
+    width: 800px;
+    height: auto;
+    transform: scale(1.1);
+    margin-top: -120px;
+    transition: 0.5s;
+}
+
+.paddingtb-4{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.desktop-hide{
+    display: none;
+}
+
+.head-keterangan{
+    font-size: 2rem;
+}
+
+.text-keterangan{
+    font-size: 1.5rem;
+    background-color: #fdb8cae8;
+}
+
+/*MOBILE STYLES*/
+
+@media only screen and (max-width: 991px){
+    .dropbtn-nav{
+        display: inline-block;
+    }
+    .desktop-hide{
+        display: block;
+    }
+    .desktop-hide a{
+        color: #1a2634;
+    }
+    .text-keterangan{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .mobile-hide{
+        display: none;
+    }
+    .map{
+        position: relative;
+        z-index: 1;
+        width: 800px;
+        height: auto;
+        margin-top: -90px;
+    }
+    .text-keterangan{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .paddingtb-4 {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+    .map{
+        position: relative;
+        z-index: 1;
+        width: 800px;
+        height: auto;
+        margin-top: -60px;
+    }
+    .text-keterangan{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
