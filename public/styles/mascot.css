@@ -1,0 +1,72 @@
+/*GENERAL*/
+
+#main-fonts{
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    background-image: url("/assets/mascot/background.png");
+    background-position: top;
+    background-size:cover;
+}
+
+#background{
+    padding-bottom: 5rem;
+}
+
+.paddingtb-4{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.desktop-hide{
+    display: none;
+}
+
+.geulismascot{
+    top: -88px;
+    z-index: -1;
+    position: relative;
+    width: 700px;
+    height: auto;
+    left: -55px;
+}
+.ujangmascot{
+    top: -88px;
+    z-index: -1;
+    position: relative;
+    width: 700px;
+    height: auto;
+    right: -35px;
+}
+.kasepmascot{
+    top: -88px;
+    z-index: -1;
+    position: relative;
+    width: 700px;
+    height: auto;
+}
+
+/*MOBILE STYLES*/
+
+@media only screen and (max-width: 991px){
+    .dropbtn-nav{
+        display: inline-block;
+    }
+    .desktop-hide{
+        display: block;
+    }
+    .desktop-hide a{
+        color: #1a2634;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .mobile-hide{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .paddingtb-4 {
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+    }
+}
