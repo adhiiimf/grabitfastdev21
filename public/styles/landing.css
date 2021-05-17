@@ -14,11 +14,49 @@
     max-height: 100%;
   }
 
-.backvideo{
-    background-image: url("../assets/landing-gif.gif");
-    background-position: center;
+.logomain-size{
+    padding: 10rem 1rem 10rem 1rem;
+    width: 450px;
+    height: auto;
+    animation: logomaineffects 4s infinite alternate;
+}
+#landingview{
+    background-image: url("../assets/back-div-land-2.png");
+    background-position: bottom;
     background-repeat:repeat;
+    position: relative;
+    z-index: -1;
+    animation: backmaineffects 4s infinite alternate;
     background-size:cover;
+}
+
+/*logomain effects*/
+@keyframes logomaineffects {
+    0%{
+        transform:scale(0.2);
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        transform:scale(1.1);
+        opacity: 1;
+        filter: drop-shadow(0 0 0.5rem #f0e4d6);
+    }
+}
+@keyframes backmaineffects {
+    0%{
+        background-size:150%;
+        opacity: 0;
+    }
+    30%{
+        opacity: 0.8;
+    }
+    100%{
+        background-size:100%;
+        opacity: 1;
+    }
 }
 
 .strip-box{
