@@ -7,14 +7,34 @@
     color: black;
 }
 
+.pm-medspor{
+    padding-top: 0.4rem;
+}
+
 .medspor-logo{
-    height: 100px;
+    height: 50px;
     width: auto;
     transition: 0.5s;
+    border-radius: 0.4rem;
 }
 .medspor-logo:hover{
-    height: 110px;
+    height: 50px;
     width: auto;
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 0.75rem rgb(189, 207, 100));
+    transition: 0.5s;
+}
+
+.spor-logo{
+    height: 90px;
+    width: auto;
+    transition: 0.5s;
+    border-radius: 0.4rem;
+}
+.spor-logo:hover{
+    height: 90px;
+    width: auto;
+    transform: scale(1.1);
     filter: drop-shadow(0 0 0.75rem rgb(189, 207, 100));
     transition: 0.5s;
 }
