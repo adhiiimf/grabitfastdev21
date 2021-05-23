@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="assets/font-awesome/css/all.css">
 @yield('navbar-ex')
 <section id="navigation"><!--Navbar-->
     <nav class="navbar navbar-expand-lg">
@@ -41,7 +42,9 @@
             </div>
         </div>
         <div class="text-end d-flex">
-            <div class="tagline-fonts">Express Your Creativity</div>
+          <a style="color: black" href="/"><div class="homeIcon">
+             <i class="fas fa-home" aria-hidden="true"></i>
+            </div></a>
         </div>
     </nav>
 </section>
