@@ -5,12 +5,27 @@
     background-color: #f0e4d6;
     transition: 0.3s;
 }
-.navbar:hover{
-    padding-top: .2rem;
-    padding-bottom: .1rem;
-    filter: drop-shadow(0 0 0.75rem rgb(29, 29, 29));
-    background-color: #f0e4d6;
-    transition: 0.3s;
+
+.homeIcon{
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    transition: 0.5s;
+}
+
+.homeIcon:hover{
+    transform: scale(1.1);
+    font-size: 2rem;
+    transition: 0.5s;
+    color: #006442;
+    margin-right: 1.5rem;
+}
+
+.navbar-brand{
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .tagline-fonts{
@@ -61,6 +76,9 @@
         display: block;
     }
     .tagline-fonts{
+        display: none;
+    }
+    .homeIcon{
         display: none;
     }
 }
