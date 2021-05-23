@@ -40,7 +40,7 @@
 @section('navbar-ex')
 @endsection
 
-<!-- Landing Page .gif -->
+<!-- Landing Page .gif --> 
 <section id="aboutsection">
 <div class="container paddingtb-4">
     <div class="row">
@@ -49,13 +49,13 @@
         @endsection
         <div class="col-lg">
             <div class="">
-                <div class="row d-flex align-items-center">
+                <div class="row d-flex align-items-center pb-5">
                     <div class="col-lg">
                         <div class="pb-5">
                             <img class="geulismascot img-fluid" src="assets/mascot/Geulis Mascot.png" alt="Geulis mascot">
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 geulistext">
                         <div>
                             <img class="img-fluid geulishead" src="assets/mascot/Geulishead.png" alt="Geulis head">
                         </div>
@@ -76,7 +76,7 @@
                             <img class="kasepmascot img-fluid" src="assets/mascot/Kasep Mascot.png" alt="kasep mascot">
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 kaseptext">
                         <div>
                             <img class="img-fluid kasephead" src="assets/mascot/Kasephead.png" alt="kasep head">
                         </div>
@@ -97,7 +97,7 @@
                             <img class="ujangmascot img-fluid" src="assets/mascot/Ujang Mascot.png" alt="kasep mascot">
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 ujangtext">
                         <div>
                             <img class="img-fluid ujanghead" src="assets/mascot/Ujanghead.png" alt="kasep head">
                         </div>
