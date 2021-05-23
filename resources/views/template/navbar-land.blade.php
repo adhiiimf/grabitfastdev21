@@ -12,6 +12,9 @@
               </button>
             <div class="collapse navbar-collapse" id="TogglerGo">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 desktop-hide text-center">
+                  <li class="nav-item">
+                    <a class="nav-link" style="color: #ffffff;background-color:#006442;border-radius: 0.7rem;padding-top: 0.3rem;padding-bottom: 0.3rem;" aria-current="page" href="https://goopps.com/event/book-ticket/3316/grab-it-fast-2021-telkom-university" target="_blank">BUY TICKET NOW</a>
+                  </li>
                 <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                       </li>
