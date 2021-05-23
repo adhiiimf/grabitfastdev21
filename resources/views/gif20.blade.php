@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="styles/navleft.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/sticky-oa.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"> 
+    @extends('template/font')
+    @section('font')
+    @endsection 
     <title>Grab It Fast 2021</title>
 </head>
 <body id="main-fonts">

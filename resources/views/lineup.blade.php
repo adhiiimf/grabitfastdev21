@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="styles/navleft.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/sticky-oa.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"> 
+    @extends('template/font')
+    @section('font')
+    @endsection 
     <title>Grab It Fast 2021</title>
 </head>
 <body id="main-fonts">
@@ -90,28 +91,20 @@
                 </div>
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                     <div class="tab-content-sub">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div>
-                                    <h4>ABOUT GS</h4>
-                                </div>
-                                <div>
-                                    <p class="aboutgstext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                            </div>
+                        <div class="row d-flex flex-xl-row-reverse">
                             <div class="col-lg">
                                 <div class="d-flex justify-content-center">
                                     <img class="gsfoto" src="/assets/lineup/gsfoto.png" alt="">
                                     <div>
                                         <ul class="sosmed-gs">
                                             <li class="sosmed-list">
-                                                <img class="oags" src="assets/youtube-rounded.png" alt="">
+                                                <a href="https://www.youtube.com/c/JuicyLuicy/featured" target="_blank"><img class="oags" src="assets/youtube-rounded.png" alt="Juicy Luicy Youtube"></a>
                                             </li>
                                             <li class="sosmed-list">
-                                                <img class="oags" src="assets/instagram-rounded.png" alt="">
+                                                <a href="https://www.instagram.com/juicyluicyband/" target="_blank"><img class="oags" src="assets/instagram-rounded.png" alt="Juicy Luicy Instagram"></a>
                                             </li>
                                             <li class="sosmed-list">
-                                                <img class="oags" src="assets/spotify.png" alt="">
+                                                <a href="https://open.spotify.com/artist/3tMTXQyRrPmMyHv5SoC0TV" target="_blank"><img class="oags" src="assets/spotify.png" alt="Juicy Luicy Spotify"></a>
                                             </li>
                                             <li class="sosmed-list">
                                                 <img class="oags" src="assets/twitter.png" alt="">
@@ -120,7 +113,15 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <h4 class="gsname">GS NAME</h4>
+                                    <h4 class="gsname">JUICY LUICY</h4>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div>
+                                    <h4>ABOUT JUICY LUICY</h4>
+                                </div>
+                                <div>
+                                    <p class="aboutgstext">Juicy Luicy merupakan sebuah grup musik asal Indonesia yang dibentuk pada tahun 2010. Grup musik ini beranggotakan 7 orang yaitu Julian Kaisar (vokal), Denis Ligia (gitar), Gelvi Gelvian (vokal latar), Zam Zam Y.M (saksofon), Gilang Kurniawan (trombon), Dwi Nugroho (Drum), dan Bina Bagja. Genre musik ini adalah pop.</p>
                                 </div>
                             </div>
                         </div>
