@@ -64,26 +64,35 @@
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                     <div class="tab-content-sub">
-                        <div class="row">
+                        <div class="row d-flex flex-xl-row-reverse">
                             <div class="col-lg">
                                 <div class="d-flex justify-content-center">
+                                    <img class="gsfoto" src="/assets/lineup/gsfoto.png" alt="">
                                     <div>
-                                        <img class="speakersfoto" src="/assets/lineup/gsfoto.png" alt="">
+                                        <ul class="sosmed-gs">
+                                            <li class="sosmed-list">
+                                                <a href="https://www.youtube.com/user/kittendust" target="_blank"><img class="oags" src="assets/youtube-rounded.png" alt="Fathia Izzati Youtube"></a>
+                                            </li>
+                                            <li class="sosmed-list">
+                                                <a href="https://www.instagram.com/kittendust" target="_blank"><img class="oags" src="assets/instagram-rounded.png" alt="Fathia Izzati Instagram"></a>
+                                            </li>
+                                            <li class="sosmed-list">
+                                                <a href="https://twitter.com/ketendangs" target="_blank"><img class="oags" src="assets/twitter.png" alt="Fathia Izzati Twitter"></a>
+                                            </li>
+                                        </ul>
                                     </div>
+                                   
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="gsname">FATHIA IZZATI</h4>
                                 </div>
                             </div>
-                            <div class="col-lg">
-                                <div class="d-flex justify-content-center">
-                                    <div>
-                                        <img class="speakersfoto" src="/assets/lineup/gsfoto.png" alt="">
-                                    </div>
+                            <div class="col-xl-6">
+                                <div class="mobile-hide">
+                                    <h4>ABOUT FATHIA IZZATI</h4>
                                 </div>
-                            </div>
-                            <div class="col-lg">
-                                <div class="d-flex justify-content-center">
-                                    <div>
-                                        <img class="speakersfoto" src="/assets/lineup/gsfoto.png" alt="">
-                                    </div>
+                                <div>
+                                    <p class="aboutgstext">Fathia Izzati Saripudin; adalah seorang youtuber dan penyanyi Indonesia yang juga merupakan vokalis dari grup musik Reality Club.</p>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +126,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-6">
-                                <div>
+                                <div class="mobile-hide">
                                     <h4>ABOUT JUICY LUICY</h4>
                                 </div>
                                 <div>
