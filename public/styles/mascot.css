@@ -1,7 +1,7 @@
 /*GENERAL*/
 
 #main-fonts{
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     background-image: url("/assets/mascot/background.png");
     background-position: top;
     background-size:cover;

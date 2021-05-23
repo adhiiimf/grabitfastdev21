@@ -1,7 +1,7 @@
 /*GENERAL*/
 
 #main-fonts{
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     background-image: url("/assets/tb/backgroundgif18.png");
     background-position: center;
     background-size: cover;
