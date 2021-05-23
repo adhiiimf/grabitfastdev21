@@ -165,17 +165,70 @@
         top: -88px;
         z-index: -1;
         position: relative;
-        width: 700px;
+        width: auto;
         height: auto;
         right: -15px;
+        animation: ujangeffects 4s infinite alternate;   
+    }
+    @keyframes ujangeffects {
+        0%{
+            transform: scale(0.7);
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        100%{
+            transform:scale(0.8);
+            opacity: 1;
+            filter: drop-shadow(0 0 0.5rem #ff1515);
+        }
     }
     .geulismascot{
         top: -68px;
         z-index: -1;
         position: relative;
-        width: 700px;
+        width: auto;
         height: auto;
         left: -35px;
+        animation: geuliseffects 4s infinite alternate;
+    }
+    .kasepmascot{
+        position: relative;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        animation: kasepseffects 4s infinite alternate;
+    }
+
+    @keyframes kasepseffects {
+        0%{
+            transform:scale(0.7);
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        100%{
+            transform:scale(0.8);
+            opacity: 1;
+            filter: drop-shadow(0 0 0.5rem #ff1515);
+        }
+    }
+
+    @keyframes geuliseffects {
+        0%{
+            transform:scale(0.7);
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        100%{
+            transform:scale(0.8);
+            opacity: 1;
+            filter: drop-shadow(0 0 0.5rem #ff1515);
+        }
     }
 }
 

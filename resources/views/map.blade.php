@@ -9,10 +9,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/map.css">
-    <link rel="stylesheet" href="styles/navleft.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/sticky-oa.css">
+    <link rel="stylesheet" href="{{asset('styles/map.css')}}">
+    <link rel="stylesheet" href="{{asset('styles/navleft.css')}}">
+    <link rel="stylesheet" href="{{asset('styles/navbar.css')}}">
+    <link rel="stylesheet" href="{{asset('styles/sticky-oa.css')}}">
     @extends('template/font')
     @section('font')
     @endsection 
@@ -54,7 +54,7 @@
             <div class="text-center">
                 <img class="map img-fluid" src="assets/map/map.png" alt="">
             </div>
-            <div class="text-center pt-5">
+            <div class="text-center pt-xl-5">
                 <span class="head-keterangan">Keterangan:</span>
             </div>
             <div class="d-flex justify-content-center">

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/font-awesome/css/all.css">
+<link rel="stylesheet" href="{{asset('assets/font-awesome/css/all.css')}}">
 @yield('navbar-ex')
 <section id="navigation"><!--Navbar-->
     <nav class="navbar navbar-expand-lg">
@@ -44,7 +44,7 @@
                 </ul>
             </div>
         </div>
-        <div class="text-end d-flex">
+        <div class="text-end d-flex mobile-hide">
           <a style="color: black" href="/"><div class="homeIcon">
              <i class="fas fa-home" aria-hidden="true"></i>
             </div></a>

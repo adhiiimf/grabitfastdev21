@@ -43,7 +43,7 @@
                 </ul>
             </div>
         </div>
-        <div class="text-end d-flex">
+        <div class="text-end d-flex mobile-hide">
             <a href="https://goopps.com/event/book-ticket/3316/grab-it-fast-2021-telkom-university" target="_blank"><button class="buttonTicket">
               <div>
                 <span>BUY TICKET NOW</span>

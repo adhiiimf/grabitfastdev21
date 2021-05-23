@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/styles/medspor/medpartsponsor.css">
+<link rel="stylesheet" href="{{asset('styles/medspor/medpartsponsor.css')}}">
 @yield('medspor')
 <section id="medpart-sponsor">
     <div class="container-fluid pt-4 pb-4">
