@@ -421,4 +421,47 @@
         padding-bottom: 55px;
         margin-top: -61px;
     }
+    .tryoutbox:hover {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 55px;
+        margin-top: -65px;
+    }
+    .seminarbox:hover {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 33px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 68px;
+        margin-top: -93px;
+        transition: 0.3s;
+    }
+    .miniexpobox:hover {
+        background-image: url("../assets/pramainevent/miniexpobox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 83px;
+        margin-top: -97px;
+        transition: 0.3s;
+    }
+    .roadshowbox:hover {
+        background-image: url("../assets/pramainevent/roadshowbox.png");
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        padding-right: 50px;
+        padding-left: 40px;
+        padding-bottom: 66px;
+        margin-top: -86px;
+        transition: 0.3s;
+    }
 }
