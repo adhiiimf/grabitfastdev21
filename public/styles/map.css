@@ -1,7 +1,7 @@
 /*GENERAL*/
 
 #main-fonts{
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     background-image: url("/assets/map/background.png");
     background-position: center;
     background-size: cover;
@@ -87,6 +87,18 @@
         width: 800px;
         height: auto;
         margin-top: -90px;
+        transform: scale(0.8);
+        transition: 0.5s;
+    }
+    .map:hover{
+        position: relative;
+        z-index: 1;
+        width: 800px;
+        height: auto;
+        padding: 1rem;
+        transform: scale(1);
+        margin-top: -90px;
+        transition: 0.5s;
     }
     .text-keterangan{
         font-size: 1.1rem;

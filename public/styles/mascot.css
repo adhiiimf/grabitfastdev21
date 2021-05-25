@@ -1,8 +1,8 @@
 /*GENERAL*/
 
 #main-fonts{
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
-    background-image: url("/assets/mascot/background.png");
+    font-family: 'Roboto', sans-serif; 
+    background-image: url("/assets/map/background.png");
     background-position: top;
     background-size:cover;
 }
@@ -27,7 +27,24 @@
     width: 700px;
     height: auto;
     left: -55px;
+    animation: geuliseffects 4s infinite alternate;
 }
+
+@keyframes geuliseffects {
+    0%{
+        transform:rotate(-20deg);
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        transform:scale(1.1);
+        opacity: 1;
+        filter: drop-shadow(0 0 0.5rem #ff1515);
+    }
+}
+
 .ujangmascot{
     top: -88px;
     z-index: -1;
@@ -35,15 +52,72 @@
     width: 700px;
     height: auto;
     right: -35px;
+    animation: ujangeffects 4s infinite alternate;
 }
+
+@keyframes ujangeffects {
+    0%{
+        transform:translateY(5%);
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        transform:scale(1.1);
+        transform:translateY(0);
+        opacity: 1;
+        filter: drop-shadow(0 0 0.5rem #ff1515);
+    }
+}
+
 .kasepmascot{
     top: -88px;
     z-index: -1;
     position: relative;
     width: 700px;
     height: auto;
+    animation: kasepseffects 4s infinite alternate;
 }
 
+@keyframes kasepseffects {
+    0%{
+        transform:rotate(20deg);
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        transform:scale(1.1);
+        opacity: 1;
+        filter: drop-shadow(0 0 0.5rem #ff1515);
+    }
+}
+
+.box-geulis{
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 1rem;
+    border-radius: 2.5rem 0.6rem 2.5rem 0.6rem;
+    background-color: #f04232;
+    color: #d3eaff;
+}
+
+.box-kasep{
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 1rem;
+    border-radius: 2.5rem 0.6rem 2.5rem 0.6rem;
+    background-color: #ff990e;
+    color: #464646;;
+}
+
+.box-ujang{
+    padding: 2rem 2rem 2rem 2rem;
+    margin-top: 1rem;
+    border-radius: 2.5rem 0.6rem 2.5rem 0.6rem;
+    background-color: #f04232;
+    color: #d3eaff;
+}
 /*MOBILE STYLES*/
 
 @media only screen and (max-width: 991px){
@@ -56,11 +130,105 @@
     .desktop-hide a{
         color: #1a2634;
     }
+    .geulistext{
+        margin-top: -115px;
+        margin-bottom: 100px;
+    }
+    .kaseptext{
+        margin-top: -115px;
+        margin-bottom: 100px;
+    }
+    .ujangtext{
+        margin-top: -115px;
+        margin-bottom: 100px;
+    }
+    .ujangmascot{
+        top: -88px;
+        z-index: -1;
+        position: relative;
+        width: 700px;
+        height: auto;
+        right: -35px;
+    }
+    .kasepmascot{
+        position: relative;
+        width: 700px;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 780px){
     .mobile-hide{
         display: none;
+    }
+    .ujangmascot {
+        top: -88px;
+        z-index: -1;
+        position: relative;
+        width: auto;
+        height: auto;
+        right: -15px;
+        animation: ujangeffects 4s infinite alternate;   
+    }
+    @keyframes ujangeffects {
+        0%{
+            transform: scale(0.7);
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        100%{
+            transform:scale(0.8);
+            opacity: 1;
+            filter: drop-shadow(0 0 0.5rem #ff1515);
+        }
+    }
+    .geulismascot{
+        top: -118px;
+        z-index: -1;
+        position: relative;
+        width: auto;
+        height: auto;
+        left: -35px;
+        animation: geuliseffects 4s infinite alternate;
+    }
+    .kasepmascot{
+        position: relative;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        animation: kasepseffects 4s infinite alternate;
+    }
+
+    @keyframes kasepseffects {
+        0%{
+            transform:scale(0.7);
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        100%{
+            transform:scale(0.8);
+            opacity: 1;
+            filter: drop-shadow(0 0 0.5rem #ff1515);
+        }
+    }
+
+    @keyframes geuliseffects {
+        0%{
+            transform:scale(0.7);
+            opacity: 0;
+        }
+        30%{
+            opacity: 1;
+        }
+        100%{
+            transform:scale(0.8);
+            opacity: 1;
+            filter: drop-shadow(0 0 0.5rem #ff1515);
+        }
     }
 }
 

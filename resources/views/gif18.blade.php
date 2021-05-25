@@ -9,30 +9,21 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/tb/gif18.css">
-    <link rel="stylesheet" href="styles/navleft.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/sticky-oa.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="{{asset('styles/tb/gif18.css')}}">
+    <link rel="stylesheet" href="{{asset('styles/navleft.css')}}">
+    <link rel="stylesheet" href="{{asset('styles/navbar.css')}}">
+    <link rel="stylesheet" href="{{asset('styles/sticky-oa.css')}}">
+    @extends('template/font')
+    @section('font')
+    @endsection 
     <title>Grab It Fast 2021</title>
 </head>
 <body id="main-fonts">
 <section id="background">
 <!-- Sticky Official Account Sosial Media -->
-<section class="sticky-sosmed">
-<div class="stick-sosmed text-center">
-    <div class="pb-4">
-        <a href="https://www.instagram.com/grabitfasttelkom/" target="_blank"><img class="sticklogo" src="assets/instagram.png" alt=""></a>
-    </div>
-    <div class="pb-4">
-        <a href="https://www.youtube.com/channel/UCP_j4yhOh9ld2a0Et3UoLkw" target="_blank"><img class="sticklogo" src="assets/youtube.png" alt=""></a>
-    </div>
-    <div>
-        <a href=""><img class="sticklogo" src="assets/line.png" alt=""></a>
-    </div>
-</div>
-</section>
+@extends('template/sticky')
+@section('sticky')
+@endsection
 
 <!-- Navigasi top -->
 @include('template/navbar-ex')
@@ -47,11 +38,14 @@
         @section('navleft')
         @endsection
         <div class="col-lg">
-            <div class="text-center pb-4">
-                <img class="lineuptitle img-fluid" src="assets/tb/textgif18.png" alt="">
+            <div class="text-center pb-1">
+                <img class="lineuptitle img-fluid" src="assets/tb/textgif18.png" alt="title">
             </div>
             <div class="text-center">
-                <img class="gif18 img-fluid" src="assets/tb/gif18.png" alt="">
+                <span class="clickposter">Click image below to watch our aftermovie</span> 
+            </div>
+            <div class="text-center">
+                <a href="https://www.youtube.com/watch?v=l3HzFG4uKRo"><img class="gif18 img-fluid" src="assets/tb/gif18.png" alt="gif118 poster"></a>
             </div>
         </div>
     </div>

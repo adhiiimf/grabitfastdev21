@@ -9,30 +9,21 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/lineup.css">
-    <link rel="stylesheet" href="styles/navleft.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/sticky-oa.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="{{asset('styles/lineup.css')}}">
+    <link rel="stylesheet" href="{{asset('styles/navleft.css')}}">
+    <link rel="stylesheet" href="{{asset('styles/navbar.css')}}">
+    <link rel="stylesheet" href="{{asset('styles/sticky-oa.css')}}">
+    @extends('template/font')
+    @section('font')
+    @endsection 
     <title>Grab It Fast 2021</title>
 </head>
 <body id="main-fonts">
 
 <!-- Sticky Official Account Sosial Media -->
-<section class="sticky-sosmed">
-<div class="stick-sosmed text-center">
-    <div class="pb-4">
-        <a href="https://www.instagram.com/grabitfasttelkom/" target="_blank"><img class="sticklogo" src="assets/instagram.png" alt=""></a>
-    </div>
-    <div class="pb-4">
-        <a href="https://www.youtube.com/channel/UCP_j4yhOh9ld2a0Et3UoLkw" target="_blank"><img class="sticklogo" src="assets/youtube.png" alt=""></a>
-    </div>
-    <div>
-        <a href=""><img class="sticklogo" src="assets/line.png" alt=""></a>
-    </div>
-</div>
-</section>
+@extends('template/sticky')
+@section('sticky')
+@endsection
 
 <!-- Navigasi top -->
 @include('template/navbar-ex')
@@ -63,26 +54,35 @@
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                     <div class="tab-content-sub">
-                        <div class="row">
+                        <div class="row d-flex flex-xl-row-reverse">
                             <div class="col-lg">
                                 <div class="d-flex justify-content-center">
+                                    <img class="gsfoto" src="/assets/lineup/fathiaizzati.png" alt="fathiaizzati">
                                     <div>
-                                        <img class="speakersfoto" src="/assets/lineup/gsfoto.png" alt="">
+                                        <ul class="sosmed-gs">
+                                            <li class="sosmed-list">
+                                                <a href="https://www.youtube.com/user/kittendust" target="_blank"><img class="oags" src="assets/youtube-rounded.png" alt="Fathia Izzati Youtube"></a>
+                                            </li>
+                                            <li class="sosmed-list">
+                                                <a href="https://www.instagram.com/kittendust" target="_blank"><img class="oags" src="assets/instagram-rounded.png" alt="Fathia Izzati Instagram"></a>
+                                            </li>
+                                            <li class="sosmed-list">
+                                                <a href="https://twitter.com/ketendangs" target="_blank"><img class="oags" src="assets/twitter.png" alt="Fathia Izzati Twitter"></a>
+                                            </li>
+                                        </ul>
                                     </div>
+                                   
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="gsname">FATHIA IZZATI</h4>
                                 </div>
                             </div>
-                            <div class="col-lg">
-                                <div class="d-flex justify-content-center">
-                                    <div>
-                                        <img class="speakersfoto" src="/assets/lineup/gsfoto.png" alt="">
-                                    </div>
+                            <div class="col-xl-6">
+                                <div class="mobile-hide">
+                                    <h4>ABOUT FATHIA IZZATI</h4>
                                 </div>
-                            </div>
-                            <div class="col-lg">
-                                <div class="d-flex justify-content-center">
-                                    <div>
-                                        <img class="speakersfoto" src="/assets/lineup/gsfoto.png" alt="">
-                                    </div>
+                                <div>
+                                    <p class="aboutgstext">Fathia Izzati atau yang akrab disapa dengan Ciaa, merupakan seorang content creator dan vokalis dari Reality Club. Ia memulai menjadi seorang content creator sejak tahun 2011, sampai saat ini total sudah ada 77 video yang di unggah di akun youtube pribadinya. Ia juga memiliki karier yang baik dalam industri musik, bersama dengan Reality Club ia telah merilis dua buah album, dengan It Is The Answer? sebagai salah satu hits mereka yang mengantarkan mereka menjadi nominiasi di dua penghargaan AMI 2018. Fathia Izzati juga merupakan lulusan Fakultas Hukum Universitas Indonesia.</p>
                                 </div>
                             </div>
                         </div>
@@ -90,37 +90,34 @@
                 </div>
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
                     <div class="tab-content-sub">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div>
-                                    <h4>ABOUT GS</h4>
-                                </div>
-                                <div>
-                                    <p class="aboutgstext">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                </div>
-                            </div>
+                        <div class="row d-flex flex-xl-row-reverse">
                             <div class="col-lg">
                                 <div class="d-flex justify-content-center">
-                                    <img class="gsfoto" src="/assets/lineup/gsfoto.png" alt="">
+                                    <img class="gsfoto" src="/assets/lineup/juicyluicy.png" alt="juicyluicy">
                                     <div>
                                         <ul class="sosmed-gs">
                                             <li class="sosmed-list">
-                                                <img class="oags" src="assets/youtube-rounded.png" alt="">
+                                                <a href="https://www.youtube.com/c/JuicyLuicy/featured" target="_blank"><img class="oags" src="assets/youtube-rounded.png" alt="Juicy Luicy Youtube"></a>
                                             </li>
                                             <li class="sosmed-list">
-                                                <img class="oags" src="assets/instagram-rounded.png" alt="">
+                                                <a href="https://www.instagram.com/juicyluicyband/" target="_blank"><img class="oags" src="assets/instagram-rounded.png" alt="Juicy Luicy Instagram"></a>
                                             </li>
                                             <li class="sosmed-list">
-                                                <img class="oags" src="assets/spotify.png" alt="">
-                                            </li>
-                                            <li class="sosmed-list">
-                                                <img class="oags" src="assets/twitter.png" alt="">
+                                                <a href="https://open.spotify.com/artist/3tMTXQyRrPmMyHv5SoC0TV" target="_blank"><img class="oags" src="assets/spotify.png" alt="Juicy Luicy Spotify"></a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <h4 class="gsname">GS NAME</h4>
+                                    <h4 class="gsname">JUICY LUICY</h4>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="mobile-hide">
+                                    <h4>ABOUT JUICY LUICY</h4>
+                                </div>
+                                <div>
+                                    <p class="aboutgstext">Grup musik yang beranggotakan Julian Kaisar (vokal), Denis Ligia (gitar), Zam Zam (saksofon), Dwi Nugroho (drum), dan Bina Bagja (bas) memulai debutnya pada tahun 2010. Juicy Luicy membawakan musik bernuansakan pop yang sederhana dan mudah diterima. Tahun 2020 Juicy Luicy merilis album pertama mereka berjudul "Sentimental" yang berisikan 11 lagu, dengan Lantas sebagai salah satu hits nya. Di tahun yang sama Juicy Luicy berhasil masuk salah satu nominasi Billboard Indonesia Musics Awards.</p>
                                 </div>
                             </div>
                         </div>

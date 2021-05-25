@@ -1,7 +1,7 @@
 /*GENERAL*/
 
 #main-fonts{
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    font-family: 'Roboto', sans-serif; 
     background-image: url("/assets/tb/backgroundgif18.png");
     background-position: center;
     background-size: cover;
@@ -15,6 +15,13 @@
 .gif18{
     width: 400px;
     height: auto;
+}
+
+.clickposter {
+	font-size: 1.5rem;
+	color: rgb(103, 123, 76);
+	filter: drop-shadow(3px 3px 1px #cecece);
+	padding-bottom: 0.5rem;
 }
 
 .paddingtb-4{
