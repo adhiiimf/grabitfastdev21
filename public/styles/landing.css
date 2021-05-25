@@ -5,6 +5,31 @@
     background-color: #1f462d;
 }
 
+#ticket-place{
+    background-color: #1a2634a4;
+    padding: 3rem 1rem 3rem 1rem;
+}
+
+.ticketbutton{
+    height: 100px;
+    width: auto;
+    animation: ticketbuttoneffects 4s infinite alternate;
+}
+@keyframes ticketbuttoneffects {
+    0%{
+        transform:scale(0.8);
+        opacity: 0.5;
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        transform:scale(1);
+        opacity: 1;
+        filter: drop-shadow(0 0 0.2rem #cfd856);
+    }
+}
+
 .buttonTicket{
     width: 200px;
     border: none;
@@ -363,11 +388,18 @@
     .buttonTicket{
         display: none;
     }
+    .logo-hide{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 780px){
     .mobile-hide{
         display: none;
+    }
+    .ticketbutton {
+        height: 75px;
+        width: auto;
     }
 }
 

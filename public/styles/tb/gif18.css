@@ -17,6 +17,13 @@
     height: auto;
 }
 
+.clickposter {
+	font-size: 1.5rem;
+	color: rgb(103, 123, 76);
+	filter: drop-shadow(3px 3px 1px #cecece);
+	padding-bottom: 0.5rem;
+}
+
 .paddingtb-4{
     padding-top: 4rem;
     padding-bottom: 4rem;

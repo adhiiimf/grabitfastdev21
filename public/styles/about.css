@@ -71,7 +71,7 @@
 /*MOBILE STYLES*/
 @media only screen and (max-width: 1199px){
     .box-text-about{
-        font-size: 20px;
+        font-size: 18px;
     }
 
 }
@@ -125,6 +125,10 @@
         margin-top: -69px;
         padding-left: 60px;
     }
+    .box-text-about{
+        font-size: 18px;
+        color: whitesmoke;
+    }
     
 }
 @media only screen and (max-width: 495px){
@@ -137,5 +141,9 @@
         padding-bottom: 58px;
         margin-top: -60px;
         padding-left: 60px;
+    }
+    .box-text-about{
+        font-size: 15px;
+        color: whitesmoke;
     }
 }

@@ -87,7 +87,7 @@
         width: 800px;
         height: auto;
         margin-top: -90px;
-        transform: scale(0.75);
+        transform: scale(0.8);
         transition: 0.5s;
     }
     .map:hover{
@@ -95,7 +95,8 @@
         z-index: 1;
         width: 800px;
         height: auto;
-        transform: scale(0.8);
+        padding: 1rem;
+        transform: scale(1);
         margin-top: -90px;
         transition: 0.5s;
     }
