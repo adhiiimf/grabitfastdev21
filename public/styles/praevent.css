@@ -371,6 +371,12 @@
     .box-text-praevent {
         font-size: 17px;
     }
+    .maineventhead:hover {
+        transform: none;
+        width: 500px;
+        height: auto;
+        transition: 0.3s;
+    }
 }
 @media only screen and (max-width: 495px){
     .forchambox {
