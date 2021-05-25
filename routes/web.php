@@ -56,3 +56,7 @@ Route::get('/gif19', function () {
 Route::get('/gif20', function () {
     return view('gif20');
 });
+
+Route::get('/tickets', function () {
+    return Redirect::to('https://goopps.com/event/book-ticket/3316/grab-it-fast-2021-telkom-university');
+});
