@@ -54,7 +54,7 @@
             </div>
             <div class="col-lg text-center pm-medspor">
                 <div>
-                <a href="https://booz-on.com/" target="_blank"><img class="spor-logo" src="assets/sponsors/1000x1000/BOZOON 1000x1000.png" alt="">
+                <a href="https://booz-on.com/" target="_blank"><img class="spor-logo" src="assets/sponsors/BOZOON_1000x1000.png" alt="Bozoon">
                 </div></a>
             </div>
             <div class="col-lg text-center pm-medspor">
@@ -117,7 +117,7 @@
                 </div>
             </div> 
             </div>
-            <div class="d-flex justify-content-center pt-1 pb-4">
+            <div class="d-flex justify-content-center pt-1">
                 <div class="row">
                 <div class="col-lg text-center pm-medspor">
                     <div>
@@ -142,6 +142,54 @@
                 <div class="col-lg text-center pm-medspor">
                     <div>
                     <a href="https://www.instagram.com/ikomchannel/" target="_blank"><img class="medspor-logo" src="assets/medpart/ikomchannel.jpg" alt="ikomchannel"></a>
+                    </div>
+                </div>
+                <div class="col-lg text-center pm-medspor">
+                    <div>
+                    <a href="https://www.instagram.com/bogorevent/" target="_blank"><img class="medspor-logo" src="assets/medpart/bogorevent.jpg" alt="bogorevent"></a>
+                    </div>
+                </div>
+            </div> 
+            </div>
+            <div class="d-flex justify-content-center pt-1">
+                <div class="row">
+                <div class="col-lg text-center pm-medspor">
+                    <div>
+                    <a href="https://www.instagram.com/infoselanjutnya/" target="_blank"><img class="medspor-logo" src="assets/medpart/infoselanjutnya.jpg" alt="infoselanjutnya"></a>
+                    </div>
+                </div>
+                <div class="col-lg text-center pm-medspor">
+                    <div>
+                    <a href="https://www.instagram.com/mediaevent_/" target="_blank"><img class="medspor-logo" src="assets/medpart/logo_media_event.png" alt="logo media event"></a>
+                    </div>
+                </div>
+                <div class="col-lg text-center pm-medspor">
+                    <div>
+                    <a href="https://www.instagram.com/lokataratel.u/" target="_blank"><img class="medspor-logo" src="assets/medpart/lokatara.jpg" alt="lokatara"></a>
+                    </div>
+                </div>
+                <div class="col-lg text-center pm-medspor">
+                    <div>
+                    <a href="https://www.instagram.com/our_magazinc/" target="_blank"><img class="medspor-logo" src="assets/medpart/magazinc.jpg" alt="magazinc"></a>
+                    </div>
+                </div>
+                <div class="col-lg text-center pm-medspor">
+                    <div>
+                    <a href="https://www.instagram.com/mediargaevent/" target="_blank"><img class="medspor-logo" src="assets/medpart/mediargaevent.png" alt="mediargaevent"></a>
+                    </div>
+                </div>
+            </div> 
+            </div>
+            <div class="d-flex justify-content-center pt-1 pb-4">
+                <div class="row">
+                <div class="col-lg text-center pm-medspor">
+                    <div>
+                    <a href="https://www.instagram.com/musicmore.ind/" target="_blank"><img class="medspor-logo" src="assets/medpart/musicmore.png" alt="musicmore"></a>
+                    </div>
+                </div>
+                <div class="col-lg text-center pm-medspor">
+                    <div>
+                    <a href="https://www.instagram.com/forpeople.id/" target="_blank"><img class="medspor-logo" src="assets/medpart/Logo_Biru_FPM_-01.png" alt="forpeoplemedia"></a>
                     </div>
                 </div>
             </div> 

@@ -21,19 +21,9 @@
 <body id="main-fonts">
 <section id="background">
 <!-- Sticky Official Account Sosial Media -->
-<section class="sticky-sosmed">
-<div class="stick-sosmed text-center">
-    <div class="pb-4">
-        <a href="https://www.instagram.com/grabitfasttelkom/" target="_blank"><img class="sticklogo" src="assets/instagram.png" alt=""></a>
-    </div>
-    <div class="pb-4">
-        <a href="https://www.youtube.com/channel/UCP_j4yhOh9ld2a0Et3UoLkw" target="_blank"><img class="sticklogo" src="assets/youtube.png" alt=""></a>
-    </div>
-    <div>
-        <a href=""><img class="sticklogo" src="assets/line.png" alt=""></a>
-    </div>
-</div>
-</section>
+@extends('template/sticky')
+@section('sticky')
+@endsection
 
 <!-- Navigasi top -->
 @include('template/navbar-ex')
@@ -48,11 +38,14 @@
         @section('navleft')
         @endsection
         <div class="col-lg">
-            <div class="text-center pb-4">
-                <img class="lineuptitle img-fluid" src="assets/tb/textgif18.png" alt="">
+            <div class="text-center pb-1">
+                <img class="lineuptitle img-fluid" src="assets/tb/textgif18.png" alt="title">
             </div>
             <div class="text-center">
-                <img class="gif18 img-fluid" src="assets/tb/gif18.png" alt="">
+                <span class="clickposter">Click image below to watch our aftermovie</span> 
+            </div>
+            <div class="text-center">
+                <a href="https://www.youtube.com/watch?v=l3HzFG4uKRo"><img class="gif18 img-fluid" src="assets/tb/gif18.png" alt="gif118 poster"></a>
             </div>
         </div>
     </div>

@@ -21,19 +21,9 @@
 <body id="main-fonts">
 
 <!-- Sticky Official Account Sosial Media -->
-<section class="sticky-sosmed">
-<div class="stick-sosmed text-center">
-    <div class="pb-4">
-        <a href="https://www.instagram.com/grabitfasttelkom/" target="_blank"><img class="sticklogo" src="assets/instagram.png" alt=""></a>
-    </div>
-    <div class="pb-4">
-        <a href="https://www.youtube.com/channel/UCP_j4yhOh9ld2a0Et3UoLkw" target="_blank"><img class="sticklogo" src="assets/youtube.png" alt=""></a>
-    </div>
-    <div>
-        <a href=""><img class="sticklogo" src="assets/line.png" alt=""></a>
-    </div>
-</div>
-</section>
+@extends('template/sticky')
+@section('sticky')
+@endsection
 
 <!-- Navigasi top -->
 @include('template/navbar-ex')
@@ -67,7 +57,7 @@
                         <div class="row d-flex flex-xl-row-reverse">
                             <div class="col-lg">
                                 <div class="d-flex justify-content-center">
-                                    <img class="gsfoto" src="/assets/lineup/gsfoto.png" alt="">
+                                    <img class="gsfoto" src="/assets/lineup/fathiaizzati.png" alt="fathiaizzati">
                                     <div>
                                         <ul class="sosmed-gs">
                                             <li class="sosmed-list">
@@ -92,7 +82,7 @@
                                     <h4>ABOUT FATHIA IZZATI</h4>
                                 </div>
                                 <div>
-                                    <p class="aboutgstext">Fathia Izzati Saripudin; adalah seorang youtuber dan penyanyi Indonesia yang juga merupakan vokalis dari grup musik Reality Club.</p>
+                                    <p class="aboutgstext">Fathia Izzati atau yang akrab disapa dengan Ciaa, merupakan seorang content creator dan vokalis dari Reality Club. Ia memulai menjadi seorang content creator sejak tahun 2011, sampai saat ini total sudah ada 77 video yang di unggah di akun youtube pribadinya. Ia juga memiliki karier yang baik dalam industri musik, bersama dengan Reality Club ia telah merilis dua buah album, dengan It Is The Answer? sebagai salah satu hits mereka yang mengantarkan mereka menjadi nominiasi di dua penghargaan AMI 2018. Fathia Izzati juga merupakan lulusan Fakultas Hukum Universitas Indonesia.</p>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +93,7 @@
                         <div class="row d-flex flex-xl-row-reverse">
                             <div class="col-lg">
                                 <div class="d-flex justify-content-center">
-                                    <img class="gsfoto" src="/assets/lineup/gsfoto.png" alt="">
+                                    <img class="gsfoto" src="/assets/lineup/juicyluicy.png" alt="juicyluicy">
                                     <div>
                                         <ul class="sosmed-gs">
                                             <li class="sosmed-list">
@@ -114,9 +104,6 @@
                                             </li>
                                             <li class="sosmed-list">
                                                 <a href="https://open.spotify.com/artist/3tMTXQyRrPmMyHv5SoC0TV" target="_blank"><img class="oags" src="assets/spotify.png" alt="Juicy Luicy Spotify"></a>
-                                            </li>
-                                            <li class="sosmed-list">
-                                                <img class="oags" src="assets/twitter.png" alt="">
                                             </li>
                                         </ul>
                                     </div>
@@ -130,7 +117,7 @@
                                     <h4>ABOUT JUICY LUICY</h4>
                                 </div>
                                 <div>
-                                    <p class="aboutgstext">Juicy Luicy merupakan sebuah grup musik asal Indonesia yang dibentuk pada tahun 2010. Grup musik ini beranggotakan 7 orang yaitu Julian Kaisar (vokal), Denis Ligia (gitar), Gelvi Gelvian (vokal latar), Zam Zam Y.M (saksofon), Gilang Kurniawan (trombon), Dwi Nugroho (Drum), dan Bina Bagja. Genre musik ini adalah pop.</p>
+                                    <p class="aboutgstext">Grup musik yang beranggotakan Julian Kaisar (vokal), Denis Ligia (gitar), Zam Zam (saksofon), Dwi Nugroho (drum), dan Bina Bagja (bas) memulai debutnya pada tahun 2010. Juicy Luicy membawakan musik bernuansakan pop yang sederhana dan mudah diterima. Tahun 2020 Juicy Luicy merilis album pertama mereka berjudul "Sentimental" yang berisikan 11 lagu, dengan Lantas sebagai salah satu hits nya. Di tahun yang sama Juicy Luicy berhasil masuk salah satu nominasi Billboard Indonesia Musics Awards.</p>
                                 </div>
                             </div>
                         </div>

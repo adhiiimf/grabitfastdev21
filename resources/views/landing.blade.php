@@ -16,6 +16,7 @@
     @section('font')
     @endsection
     <title>Grab It Fast 2021</title>
+    <meta name="description" content="Grab It Fast 2021 terdiri atas Main Event dan Pra Event. Main event terdiri atas rangkaian acara Try out, Seminar, Expo, Penampilan dari Pengisi Acara, dan puncaknya adalah Penampilan dari Artis Ternama. Salah satu Main Event dari acara ini yaitu Expo, dimana peserta bisa mengetahui lebih dalam lagi tentang jurusan-jurusan yang ada di Telkom University.">
 </head>
 <body id="main-fonts">
 
@@ -34,11 +35,18 @@
 @endsection
 <!-- Content from logo 'till Mascot -->
 <section id="back-div-land2">
-
+{{-- Button Ticket on mobile --}}
+<section id="ticket-place">
+<div class="text-white text-center">
+    <div>
+        <a href="/tickets" target="_blank" rel="noopener noreferrer"><img class="img-fluid ticketbutton" src="{{asset('assets/ticketbutton.png')}}" alt="ticketclick"></a>
+    </div>
+</div>
+</section>
 <!-- Logo Landing -->
 <section class="mobile-hide">
-<div class="pt-5 container">
-<div class="d-flex justify-content-center">
+<div class="pt-5 container logo-hide">
+<div class="d-flex justify-content-center ">
 <div class="row">
 <div class="col-lg text-center paddingbotlog-land">
     <div>

@@ -1,10 +1,9 @@
-<link rel="stylesheet" href="{{asset('assets/font-awesome/css/all.css')}}">
 @yield('navbar-ex')
 <section id="navigation"><!--Navbar-->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <div class="d-flex marginleft10">
-              <a class="navbar-brand" href="/"><img src="assets/telu.png" alt="logo" width="40px" height="auto"></a>
+              <a class="navbar-brand" href="https://telkomuniversity.ac.id/" target="_blank"><img src="assets/telu.png" alt="logo" width="40px" height="auto"></a>
               <a class="navbar-brand" href="/"><img src="assets/logo forcy.png" alt="logo" width="40px" height="auto"></a>
               <a class="navbar-brand" href="/"><img src="assets/logo-main.png" alt="logo" width="40px" height="auto"></a>
             </div>
@@ -35,12 +34,13 @@
                     <a class="nav-link" href="/aboutus">About Us</a>
                   </li>
                   <li>
-                      <div class="d-flex justify-content-center pt-2">
-                        <a href="https://www.instagram.com/grabitfasttelkom/" target="_blank"><img class="navOA" src="assets/instagram.png" alt=""></a>
-                        <a href="https://www.youtube.com/channel/UCP_j4yhOh9ld2a0Et3UoLkw" target="_blank"><img class="navOA" src="assets/youtube.png" alt=""></a>
-                        <a href=""><img class="navOA" src="assets/line.png" alt=""></a>
-                      </div>
-                  </li>
+                    <div class="d-flex justify-content-center pt-2">
+                      <a href="https://www.instagram.com/grabitfasttelkom/" target="_blank">
+                        <i class="fab fa-instagram navOA" aria-hidden="true"></i></a>
+                      <a href="https://www.youtube.com/channel/UCP_j4yhOh9ld2a0Et3UoLkw" target="_blank"><i class="fab fa-youtube navOA" aria-hidden="true"></i></a>
+                      <a href="https://vt.tiktok.com/ZSJaxMoyR/"><i class="fab fa-tiktok navOA" aria-hidden="true"></i></a>
+                    </div>
+                </li>
                 </ul>
             </div>
         </div>
