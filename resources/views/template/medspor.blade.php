@@ -54,7 +54,7 @@
             </div>
             <div class="col-lg text-center pm-medspor">
                 <div>
-                <a href="https://booz-on.com/" target="_blank"><img class="spor-logo" src="assets/sponsors/BOZOON_1000x1000.png" alt="Bozoon">
+                <a href="https://booz-on.com/" target="_blank"><img class="spor-logo" src="assets/sponsors/BOOZON.png" alt="Boozon">
                 </div></a>
             </div>
             <div class="col-lg text-center pm-medspor">
