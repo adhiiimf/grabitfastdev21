@@ -12,9 +12,6 @@
               </button>
             <div class="collapse navbar-collapse" id="TogglerGo">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 desktop-hide text-center">
-                  <li class="nav-item">
-                    <a class="nav-link" style="color: #ffffff;background-color:#006442;border-radius: 0.7rem;padding-top: 0.3rem;padding-bottom: 0.3rem;" aria-current="page" href="/tickets" target="_blank">BUY TICKET NOW</a>
-                  </li>
                 <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                       </li>
@@ -45,11 +42,11 @@
             </div>
         </div>
         <div class="text-end d-flex mobile-hide">
-            <a href="/tickets" target="_blank"><button class="buttonTicket">
+            <button class="buttonTicket" disabled>
               <div>
-                <span>BUY TICKET NOW</span>
+                <span>Express Your Creativity</span>
               </div>
-            </button></a>
+            </button>
         </div>
     </nav>
 </section>
