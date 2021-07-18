@@ -10,6 +10,30 @@
     padding: 3rem 1rem 3rem 1rem;
 }
 
+.sertif-button{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    width: 250px;
+    height: auto;
+    border: none;
+    padding: 1.3rem 2rem 1.3rem 2rem;
+    border-radius: 1rem;
+    transform: scale(0.9);
+    transition: 0.5s;
+    background-color: #ff3a3a;
+}
+
+.sertif-button:hover{
+    font-size: 1.5rem;
+    border: none;
+    color: whitesmoke;
+    padding: 1.3rem 2rem 1.3rem 2rem;
+    border-radius: 1rem;
+    transform: scale(1);
+    transition: 0.5s;
+    background-color: rgb(44, 90, 63);
+}
+
 .ticketbutton{
     height: 100px;
     width: auto;

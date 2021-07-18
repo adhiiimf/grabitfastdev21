@@ -37,11 +37,18 @@
 <section id="back-div-land2">
 {{-- Button Ticket on mobile --}}
 <section id="ticket-place">
-<div class="text-white text-center">
-    <div>
-        <a href="/tickets" target="_blank" rel="noopener noreferrer"><img class="img-fluid ticketbutton" src="{{asset('assets/ticketbutton.png')}}" alt="ticketclick"></a>
+    <div class="text-white text-center">
+        <div>
+            <a href="/sertifikat" target="_blank" rel="noopener noreferrer">
+            <div class="text-center">
+                <button class="sertif-button">
+                    <span>SERTIFIKAT<br>
+                    GIF'21</span>
+                </button>
+            </div>
+            </a>
+        </div>
     </div>
-</div>
 </section>
 <!-- Logo Landing -->
 <section class="mobile-hide">

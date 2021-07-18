@@ -93,6 +93,37 @@
                         <div class="row d-flex flex-xl-row-reverse">
                             <div class="col-lg">
                                 <div class="d-flex justify-content-center">
+                                    <img class="gsfoto" src="/assets/lineup/ardhito.png" alt="juicyluicy">
+                                    <div>
+                                        <ul class="sosmed-gs">
+                                            <li class="sosmed-list">
+                                                <a href="https://www.youtube.com/channel/UC8ND2XCj7tvw-A7Kq1r416A" target="_blank"><img class="oags" src="assets/youtube-rounded.png" alt="Ardhito Pramono Youtube"></a>
+                                            </li>
+                                            <li class="sosmed-list">
+                                                <a href="https://www.instagram.com/ardhitopramono/" target="_blank"><img class="oags" src="assets/instagram-rounded.png" alt="Ardhito Pramono Instagram"></a>
+                                            </li>
+                                            <li class="sosmed-list">
+                                                <a href="https://open.spotify.com/artist/3TkSKriI4EZmTxSFyzs0fd" target="_blank"><img class="oags" src="assets/spotify.png" alt="Ardhito Pramono Spotify"></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <h4 class="gsname">ARDHITO PRAMONO</h4>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="mobile-hide">
+                                    <h4>ABOUT ARDHITO PRAMONO</h4>
+                                </div>
+                                <div>
+                                    <p class="aboutgstext">Ardhito Rifqi Pramono atau yang akrab disapa Ardhito merupakan seorang penyani, penulis lagu, dan seorang aktor. Memulai karirnya pada tahun 2013 melalui youtube, sampai akhirnya merilis lagu pertama yang ia tulis sendiri berjudul "I Placed My Heart", salah satu lagunya yang populer berjudul "Bitterlove" telah dilihat 23 juta kali di youtube, dan yang terbaru ia baru saja merilis mini album yang diberi judul "Semar & Pasukan Monyet". Tak hanya berkarya di indsustri musik saja, ia juga berperan sebagai Kale dalam film NKCTHI dan Story of Kale.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row d-flex flex-xl-row-reverse pt-5">
+                            <div class="col-lg">
+                                <div class="d-flex justify-content-center">
                                     <img class="gsfoto" src="/assets/lineup/juicyluicy.png" alt="juicyluicy">
                                     <div>
                                         <ul class="sosmed-gs">
