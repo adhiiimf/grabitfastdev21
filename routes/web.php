@@ -13,8 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/restart/amf', function () {
+    // $echo "halo";
+    Artisan::call('cache:clear');
+    Artisan::call('optimize');
+    Artisan::call('down');
+    Artisan::call('up');
+    Artisan::call('serve');
+    return "DONE";
+    sleep(2);
+    return redirect('/');
+});
+
 Route::get('/', function () {
     return view('landing');
+});
+
+Route::fallback(function() {
+    return redirect('/');
 });
 
 Route::get('/aboutus', function () {
@@ -58,5 +74,13 @@ Route::get('/gif20', function () {
 });
 
 Route::get('/tickets', function () {
-    return Redirect::to('https://goopps.com/event/book-ticket/3316/grab-it-fast-2021-telkom-university');
+    return Redirect::to('https://goopps.com/watch/login');
+});
+
+Route::get('/watch', function () {
+    return Redirect::to('https://goopps.com/watch/login');
+});
+
+Route::get('/sertifikat', function () {
+    return Redirect::to('https://bit.ly/SertiGIF2021');
 });
